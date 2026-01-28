@@ -1,0 +1,1 @@
+[2026-01-26 14:28:44,911] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x0000023944692240>页面中未能找到('xpath', "//div[@class= 'menu-custom-title' and text()='组织管理']")元素

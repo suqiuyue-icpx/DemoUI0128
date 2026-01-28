@@ -1,0 +1,1 @@
+[2026-01-27 17:55:11,347] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000020D90242150>页面中未能找到('xpath', "//button[@type='button' and contains(@class, 'ant-btn .h-b-custom-select-button .ant-btn-icon-only')]")元素

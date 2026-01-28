@@ -1,0 +1,4 @@
+[2026-01-27 15:40:24,141] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001AE99772E70>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 15:40:34,850] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001AE99770950>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 15:40:45,466] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001AE99770A40>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 15:40:56,211] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001AE99788680>页面中未能找到('id', 'form_item_username')元素

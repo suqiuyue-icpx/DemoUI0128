@@ -1,0 +1,4 @@
+[2026-01-27 18:38:36,873] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000012BB0EC6510>页面中未能找到('xpath', "//button[contains(@class, 'ant-btn') and contains(text(), '组织选择')]")元素
+[2026-01-27 18:38:47,579] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000012BB0DC8AA0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:38:54,484] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000012BB0F02390>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:39:27,051] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000012BB0F03BF0>页面中未能找到('xpath', "//div[@class='ant-pro-header-account-name']//div[@class='username']")元素

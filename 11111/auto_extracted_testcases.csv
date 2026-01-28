@@ -1,0 +1,21 @@
+﻿testinfo,,,,testcase,,,,,,check,,,
+id,title,info,filepath,element_info,find_type,operate_type,info,index,element_name,element_info,find_type,info,element_name,operate_type
+test_userinfo001,用户管理,用户新增、删除、编辑、查询、登录等功能,/OrganizationalManagement/userinfo/userinfo.yaml,use_USER_ALL_NAME,ID,send_keys,输入用户名,0,login_username,//div[@class='ant-pro-header-account-name']//div[@class='username'],XPATH,检查登录是否成功,user_login_success,title
+,,,,use_USER_NAME,ID,send_keys,输入用户名,1,login_username,"//button[@type='submit' and contains(@class, 'login-button')]",XPATH,检查退出登录是否成功,exit_login_success,text
+,,,,use_USER_SYS_STATUS,ID,send_keys,,2,,"//span[contains(@class, 'ant-pro-multi-tab-title') and contains(text(), '用户管理')]",XPATH,检查打开用户管理页面,userinfo_open_success,text
+,,,,use_USER_ALL_NAME,ID,send_keys,输入用户名,3,login_username,,,,,
+,,,,use_USER_NAME,ID,send_keys,输入用户名,4,login_username,,,,,
+,,,,use_USER_PWD,ID,send_keys,输入用户密码,5,userpassword,,,,,
+,,,,use_USER_PHONE,ID,send_keys,,6,,,,,,
+,,,,use_USER_EMAIL,ID,send_keys,,7,,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '行政组选择')]",XPATH,click,点击行政组选择按钮,8,button_8,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '用户组选择')]",XPATH,click,点击用户组选择按钮,9,button_9,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '角色选择')]",XPATH,click,点击角色选择按钮,10,button_10,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '重 置')]",XPATH,click,点击重 置按钮,11,button_11,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '查 询')]",XPATH,click,点击查 询按钮,12,button_12,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '展开')]",XPATH,click,点击展开按钮,13,button_13,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '刷 新')]",XPATH,click,点击刷 新按钮,14,button_14,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '批量删除')]",XPATH,click,点击批量删除按钮,15,button_15,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '新 增')]",XPATH,click,点击新 增按钮,16,button_16,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '编辑')]",XPATH,click,点击编辑按钮,17,button_17,,,,,
+,,,,"//button[contains(@class, 'ant-btn') and contains(text(), '删除')]",XPATH,click,点击删除按钮,18,button_18,,,,,

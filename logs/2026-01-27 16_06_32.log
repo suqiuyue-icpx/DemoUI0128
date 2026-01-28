@@ -1,0 +1,2 @@
+[2026-01-27 16:07:01,817] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001CD21CB93D0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 16:07:03,586] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001CD21CBAC60>页面中未能找到('id', 'form_item_username')元素

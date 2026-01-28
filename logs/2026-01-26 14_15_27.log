@@ -1,0 +1,3 @@
+[2026-01-26 14:16:13,417] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x000001D17F332D20>页面中未能找到('class name', 'ant-menu-submenu.ant-menu-submenu-inline.second-third-nav-color.ant-menu-submenu-selected')元素
+[2026-01-26 14:16:24,251] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x000001D17F767830>页面中未能找到('id', 'form_item_username')元素
+[2026-01-26 14:16:29,519] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001D17FB1D400>页面中未能找到('id', 'ID')元素

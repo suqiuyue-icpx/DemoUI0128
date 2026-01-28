@@ -1,0 +1,138 @@
+testinfo:
+    - id: test_userinfo001
+      title: 用户管理
+      info: 用户新增、删除、编辑、查询、登录等功能
+
+testcase:
+    - element_info: form_item_username
+      find_type: ID
+      operate_type: send_keys
+      info: 输入用户信息
+      index: 0
+
+    - element_info: form_item_password
+      find_type: ID
+      operate_type: send_keys
+      info: 输入密码
+      index: 1
+
+    - element_info: "//button[@type='submit' and contains(@class, 'login-button')]"
+      find_type: XPATH
+      operate_type: click
+      info: 点击登录按钮
+      index: 2
+
+    - element_info: "//div[@class='ant-pro-header-account-name']//div[@class='username']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停账户菜单
+      index: 3
+
+    - element_info: "//div[@class='ant-pro-account-menu-item' and text()='退出登录']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停退出登录
+      index: 4
+
+    - element_info: "//button[.//span[text()='确 定']]"
+      find_type: XPATH
+      operate_type: click
+      info: 选择确认退出
+      index: 5
+
+    - element_info: "//span[@title='平台管理' and @class='menu-custom-title']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停平台管理菜单
+      index: 6
+
+    - element_info: "//span[@title='组织管理' and @class='menu-custom-title']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停组织管理菜单
+      index: 7
+
+    - element_info: "//div[text()='用户管理']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停用户管理菜单
+      index: 8
+
+    - element_info: "//button[@title='新增']"
+      find_type: XPATH
+      operate_type: click
+      info: 点击新增按钮
+      index: 9
+
+    - element_info: "//input[@placeholder='请输入' and @ID='use_USER_ALL_NAME' ]"
+      find_type: XPATH
+      operate_type: send_keys
+      info: 输入用户姓名
+      index: 10
+
+    - element_info: "//input[@placeholder='请输入' and @ID='use_USER_NAME' ]"
+      find_type: XPATH
+      operate_type: send_keys
+      info: 输入用户账号
+      index: 11
+
+    - element_info: use_USER_PWD
+      find_type: ID
+      operate_type: send_keys
+      info: 输入用户密码
+      index: 12
+
+    - element_info: "//div[@compentfield='USER_SYS_STATUS']"
+      find_type: XPATH
+      operate_type: click
+      info: 下拉选择用户状态按钮
+      index: 13
+
+    - element_info: "//span[@class='h-select-show-value-item-value' and text()='1']/ancestor::div[@label='启用']"
+      find_type: XPATH
+      operate_type: click
+      info: 选择启用
+      index: 14
+
+    - element_info: "//span[@class='h-select-show-value-item-value' and text()='2']/ancestor::div[@label='禁用']"
+      find_type: XPATH
+      operate_type: click
+      info: 选择禁用
+      index: 15
+
+    - element_info: "/html/body/div[7]/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/form/div/div[6]/div/div/div[2]/div/div/div/div/div/div/div/div[2]/button"
+      find_type: XPATH
+      operate_type: click
+      info: 打开用户组织选择页面
+      index: 16
+
+    - element_info: "/html/body/div[8]/div/div[2]/div/div[2]/div[2]/section/main[2]/div/div/div/div[1]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div[3]"
+      find_type: XPATH
+      operate_type: click
+      info: 勾选用户组织
+      index: 17
+
+    - element_info: "//button[.//span[text()='确 定']]"
+      find_type: XPATH
+      operate_type: click
+      info: 选择用户组织后，点击确定按钮
+      index: 18
+
+    - element_info: "//button[.//span[text()='保 存']]"
+      find_type: XPATH
+      operate_type: click
+      info: 点击保存按钮
+      index: 19
+
+check:
+    - element_info: "//div[@class='ant-pro-header-account-name']//div[@class='username']"
+      find_type: XPATH
+      info: 检查登录是否成功
+
+    - element_info: "//button[@type='submit' and contains(@class, 'login-button')]"
+      find_type: XPATH
+      info: 检查退出登录是否成功
+
+    - element_info: "//span[contains(@class, 'ant-pro-multi-tab-title') and contains(text(), '用户管理')]"
+      find_type: XPATH
+      info: 检查打开用户管理页面

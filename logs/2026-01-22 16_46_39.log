@@ -1,0 +1,2 @@
+[2026-01-22 16:46:55,844] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001FB3FC9CF80>页面中未能找到('class name', "//div[contains(@class, 'username')]/span")元素
+[2026-01-22 16:47:07,084] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001FB40086960>页面中未能找到('id', 'form_item_username')元素

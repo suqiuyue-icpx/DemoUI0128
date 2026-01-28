@@ -1,0 +1,7 @@
+﻿id,detail,data,check,screenshot
+test_userinfo001.1,用户登录成功,logcode: admin;password:admin;username: 测试1,租户管理员;用户管理,user_login_success
+test_userinfo001.2,新增用户成功,username: 测试0127;usercode: test0127;usercode: test0127;userOrg: 测试部,租户管理员;用户管理,user_add_success
+test_userinfo001.3,编辑用户成功,logcode: admin;password:admin;username: 测试1,租户管理员;用户管理,user_login_success
+test_userinfo001.4,查询用户成功,logcode: admin;password:admin;username: 测试1,租户管理员;用户管理,user_login_success
+test_userinfo001.5,删除用户成功,logcode: admin;password:admin;username: 测试1,租户管理员;用户管理,user_login_success
+test_userinfo001.6,用户退出登录,,登 录,user_exit_success

@@ -1,0 +1,2 @@
+[2026-01-27 15:52:57,936] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001D80846AE40>页面中未能找到('id', 'rc_select_21')元素
+[2026-01-27 15:53:07,326] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001D80820B500>页面中未能找到('id', 'form_item_username')元素

@@ -1,0 +1,4 @@
+[2026-01-27 15:37:34,983] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001B9AA4A9070>页面中未能找到('xpath', "//button[@type='button' and text()='新增']")元素
+[2026-01-27 15:37:45,930] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001B9AC907680>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 15:37:56,825] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001B9AC91CE60>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 15:37:58,673] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001B9AC91D070>页面中未能找到('id', 'form_item_username')元素

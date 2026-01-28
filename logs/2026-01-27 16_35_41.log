@@ -1,0 +1,2 @@
+[2026-01-27 16:36:28,770] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000165511E9070>页面中未能找到('xpath', "//input[@id='rc_select_18' and @aria-activedescendant='rc_select_18_list_0' ]")元素
+[2026-01-27 16:36:31,223] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001655355FB30>页面中未能找到('id', 'form_item_username')元素

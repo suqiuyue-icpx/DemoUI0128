@@ -1,0 +1,2 @@
+[2026-01-22 16:01:42,401] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000020398F99730>页面中未能找到('xpath', "//div[@class='new-dialog-tips dialog-common-warn-tips']")元素
+[2026-01-22 16:01:53,202] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000002039890F560>页面中未能找到('id', 'form_item_username')元素

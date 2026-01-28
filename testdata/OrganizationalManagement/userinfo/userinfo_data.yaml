@@ -1,0 +1,57 @@
+- id : test_userinfo001.1
+  detail : 用户登录成功
+  screenshot : user_login_success
+  data :
+    logcode : admin
+    password : admin
+    username : 测试1
+  check :
+    - 租户管理员
+    - 用户管理
+- id : test_userinfo001.2
+  detail : 新增用户成功
+  screenshot : user_add_success
+  data :
+    username : 测试0127
+    usercode : test0127
+    userOrg : 测试部
+  check :
+    - 租户管理员
+    - 用户管理
+- id : test_userinfo001.3
+  detail : 编辑用户成功
+  screenshot : user_login_success
+  data :
+    logcode : admin
+    password : admin
+    username : 测试1
+  check :
+    - 租户管理员
+    - 用户管理
+- id : test_userinfo001.4
+  detail : 查询用户成功
+  screenshot : user_login_success
+  data :
+    logcode : admin
+    password : admin
+    username : 测试1
+  check :
+    - 租户管理员
+    - 用户管理
+- id : test_userinfo001.5
+  detail : 删除用户成功
+  screenshot : user_login_success
+  data :
+    logcode : admin
+    password : admin
+    username : 测试1
+  check :
+    - 租户管理员
+    - 用户管理
+- id : test_userinfo001.6
+  detail : 用户退出登录
+  screenshot : user_exit_success
+  data :
+    # 无data参数
+  check :
+    - 登 录

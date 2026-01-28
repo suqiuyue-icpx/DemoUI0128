@@ -1,0 +1,22 @@
+﻿testinfo,,,,testcase,,,,,,check,,,,
+id,title,info,filepath,element_info,find_type,operate_type,info,index,element_name,element_info,find_type,info,element_name,operate_type
+test_userinfo001,用户管理,用户新增、删除、编辑、查询、登录等功能,/OrganizationalManagement/userinfo/userinfo.yaml,form_item_username,ID,send_keys,输入用户信息,0,login_username,//div[@class='ant-pro-header-account-name']//div[@class='username'],XPATH,检查登录是否成功,user_login_success,title
+,,,,form_item_password,ID,send_keys,输入密码,1,login_password,"//button[@type='submit' and contains(@class, 'login-button')]",XPATH,检查退出登录是否成功,exit_login_success,text
+,,,,"//button[@type='submit' and contains(@class, 'login-button')]",XPATH,click,点击登录按钮,2,login_button,"//span[contains(@class, 'ant-pro-multi-tab-title') and contains(text(), '用户管理')]",XPATH,检查打开用户管理页面,userinfo_open_success,text
+,,,,//div[@class='ant-pro-header-account-name']//div[@class='username'],XPATH,click,鼠标悬停账户菜单,3,login_username_check,,,,,
+,,,,//div[@class='ant-pro-account-menu-item' and text()='退出登录'],XPATH,click,鼠标悬停退出登录,4,login_exit,,,,,
+,,,,//button[.//span[text()='确 定']],XPATH,click,选择确认退出,5,login_exit_button,,,,,
+,,,,//span[@title='平台管理' and @class='menu-custom-title'],XPATH,click,鼠标悬停平台管理菜单,6,open_platForm_button,,,,,
+,,,,//span[@title='组织管理' and @class='menu-custom-title'],XPATH,click,鼠标悬停组织管理菜单,7,open_OrgMan_button,,,,,
+,,,,//div[text()='用户管理'],XPATH,click,鼠标悬停用户管理菜单,8,open_UserMan_button,,,,,
+,,,,//button[@title='新增'],XPATH,click,点击新增按钮,9,add_user_button,,,,,
+,,,,//input[@placeholder='请输入' and @ID='use_USER_ALL_NAME' ],XPATH,send_keys,输入用户姓名,10,username,,,,,
+,,,,//input[@placeholder='请输入' and @ID='use_USER_NAME' ],XPATH,send_keys,输入用户账号,11,usercode,,,,,
+,,,,use_USER_PWD,ID,send_keys,输入用户密码,12,userpassword,,,,,
+,,,,//div[@compentfield='USER_SYS_STATUS'],XPATH,click,下拉选择用户状态按钮,13,userState_button,,,,,
+,,,,//span[@class='h-select-show-value-item-value' and text()='1']/ancestor::div[@label='启用'],XPATH,click,选择启用,14,userState_button_true,,,,,
+,,,,//span[@class='h-select-show-value-item-value' and text()='2']/ancestor::div[@label='禁用'],XPATH,click,选择禁用,15,userState_button_false,,,,,
+,,,,/html/body/div[7]/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/form/div/div[6]/div/div/div[2]/div/div/div/div/div/div/div/div[2]/button,XPATH,click,打开用户组织选择页面,16,userOrg_button,,,,,
+,,,,/html/body/div[8]/div/div[2]/div/div[2]/div[2]/section/main[2]/div/div/div/div[1]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div[3],XPATH,click,勾选用户组织,17,userOrg_click_button,,,,,
+,,,,//button[.//span[text()='确 定']],XPATH,click,选择用户组织后，点击确定按钮,18,userOrg_confirm_button,,,,,
+,,,,//button[.//span[text()='保 存']],XPATH,click,点击保存按钮,19,save_button,,,,,

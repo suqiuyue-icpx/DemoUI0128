@@ -1,0 +1,1 @@
+[2026-01-23 10:39:41,167] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000029A81E6B800>页面中未能找到('id', 'form_item_username')元素

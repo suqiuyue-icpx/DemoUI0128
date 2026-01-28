@@ -1,0 +1,1 @@
+[2026-01-22 16:04:05,496] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000027ABE358C80>页面中未能找到('xpath', "//div[@class='new-dialog-tips dialog-common-warn-tips']")元素

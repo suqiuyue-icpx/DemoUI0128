@@ -1,0 +1,4 @@
+[2026-01-27 16:41:29,742] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000022676D9B2C0>页面中未能找到('class name', '//ant-btn.h-b-custom-select-button.ant-btn-icon-only')元素
+[2026-01-27 16:41:40,611] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000022671872360>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 16:41:51,384] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000022676DC8E90>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 16:42:02,068] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000022676DCAC90>页面中未能找到('id', 'form_item_username')元素

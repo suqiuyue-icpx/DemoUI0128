@@ -1,0 +1,2 @@
+[2026-01-26 15:22:43,543] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000021A1E4D1490>页面中未能找到('id', 'ID')元素
+[2026-01-26 15:22:54,403] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000021A1E4D1760>页面中未能找到('id', 'ID')元素

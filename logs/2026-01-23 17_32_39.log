@@ -1,0 +1,3 @@
+[2026-01-23 17:32:39,289] [log.py|__console] [line:46] ERROR   : 文件不存在：[Errno 2] No such file or directory: 'G:\\DemoUI-master\\testdata/userinfo_data.yaml'
+[2026-01-23 17:33:17,713] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001E6C5307DD0>页面中未能找到('xpath', "//div[@class='ant-pro-account-menu-item' and text()='退出登录']")元素
+[2026-01-23 17:33:28,540] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001E6C5DFADE0>页面中未能找到('id', 'form_item_username')元素

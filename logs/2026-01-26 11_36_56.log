@@ -1,0 +1,1 @@
+[2026-01-26 11:37:53,799] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001C0C53C3E90>页面中未能找到('xpath', "//div[@class='ant-pro-account-menu-item' and text()='退出登录']")元素

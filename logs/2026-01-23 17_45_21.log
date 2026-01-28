@@ -1,0 +1,2 @@
+[2026-01-23 17:45:21,356] [log.py|__console] [line:46] ERROR   : 文件不存在：[Errno 2] No such file or directory: 'G:\\DemoUI-master\\testdata/testdata/OrganizationalManagement/userinfo/userinfo_data.yaml'
+[2026-01-23 17:45:27,597] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000025CDD46CAD0>页面中未能找到('id', 'form_item_username')元素

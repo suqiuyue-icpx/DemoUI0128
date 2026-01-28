@@ -1,0 +1,3 @@
+[2026-01-27 18:35:49,446] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001C6CA0AA480>页面中未能找到('xpath', "//div[@class='ant-pro-header-account-name']//div[@class='username']")元素
+[2026-01-27 18:35:59,508] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001C6CA280CB0>页面中未能找到('xpath', "//button[@title='新增']")元素
+[2026-01-27 18:36:02,241] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001C6CA281460>页面中未能找到('xpath', "//div[@class='ant-pro-header-account-name']//div[@class='username']")元素

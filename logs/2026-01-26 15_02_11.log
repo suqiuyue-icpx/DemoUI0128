@@ -1,0 +1,3 @@
+[2026-01-26 15:03:19,767] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x0000025A5F74FFE0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-26 15:03:34,712] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000025A5FCB4EF0>页面中未能找到('id', 'ID')元素
+[2026-01-26 15:03:45,609] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x0000025A5FCB5280>页面中未能找到('id', 'ID')元素

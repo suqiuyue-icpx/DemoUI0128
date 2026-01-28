@@ -1,0 +1,2 @@
+[2026-01-22 17:44:35,751] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001CB7660A480>页面中未能找到('xpath', "//div[@class='ant-btn ant-btn-primary']")元素
+[2026-01-22 17:44:57,649] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000001CB76487620>页面中未能找到('id', 'form_item_username')元素

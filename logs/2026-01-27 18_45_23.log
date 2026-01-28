@@ -1,0 +1,5 @@
+[2026-01-27 18:45:50,075] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002ADBDA40950>页面中未能找到('xpath', "//button[.//use[@href='#icon-hoteam-material-management']]")元素
+[2026-01-27 18:46:00,852] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002ADBDD02C90>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:46:11,397] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002ADBDD02960>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:46:12,875] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002ADBDD00680>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:46:29,159] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002ADBDD02B40>页面中未能找到('xpath', "//div[@class='ant-pro-header-account-name']//div[@class='username']")元素

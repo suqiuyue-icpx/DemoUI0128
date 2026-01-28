@@ -1,0 +1,2 @@
+[2026-01-26 14:32:01,330] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x000002B1BEE64F50>页面中未能找到('xpath', "//span[@title='用户管理' and @class='menu-custom-title']")元素
+[2026-01-26 14:32:09,326] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x000002B1BEE9B3E0>页面中未能找到('id', 'form_item_username')元素

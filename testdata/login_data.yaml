@@ -1,0 +1,16 @@
+- id : test_login001.1
+  detail : test1账号和密码正确，成功登录系统
+  screenshot : username_pawd_success
+  data :
+    username : test1
+    password : A1
+  check :
+    - 测试1
+- id : test_login001.2
+  detail : admin账号和密码正确，成功登录系统
+  screenshot : username_pawd_success
+  data :
+    username : admin
+    password : admin
+  check :
+    - 租户管理员

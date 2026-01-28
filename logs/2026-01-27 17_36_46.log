@@ -1,0 +1,2 @@
+[2026-01-27 17:37:13,201] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000210601B2C90>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 17:38:02,133] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002105FFBA6C0>页面中未能找到('xpath', "//div[@class='ant-pro-header-account-name']//div[@class='username']")元素

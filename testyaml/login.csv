@@ -1,0 +1,8 @@
+﻿testinfo,,,,testcase,,,,,,check,,,
+id,title,info,filepath,element_info,find_type,operate_type,info,index,element_name,element_info,find_type,info,element_name
+test_login001,登录测试,打开系统首页,/login.yaml,form_item_username,ID,send_keys,输入用户信息,0,login_username,//div[@class='ant-pro-header-account-name']//div[@class='username'],XPATH,检查登录是否成功,user_login_success
+,,,,form_item_password,ID,send_keys,输入密码,1,login_password,"//button[@type='submit' and contains(@class, 'login-button')]",XPATH,检查退出登录是否成功,exit_login_success
+,,,,"//button[@type='submit' and contains(@class, 'login-button')]",XPATH,click,点击登录按钮,2,login_button,,,,
+,,,,//div[@class='ant-pro-header-account-name']//div[@class='username'],XPATH,click,鼠标悬停账户菜单,3,login_username_check,,,,
+,,,,//div[@class='ant-pro-account-menu-item' and text()='退出登录'],XPATH,click,鼠标悬停退出登录,4,login_exit,,,,
+,,,,//button[.//span[text()='确 定']],XPATH,click,选择确认退出,5,login_exit_button,,,,

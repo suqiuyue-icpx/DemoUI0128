@@ -1,0 +1,2 @@
+[2026-01-27 17:45:31,101] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000025DF66DAA80>页面中未能找到('id', 'use_USER_SYS_STATUS_list_0')元素
+[2026-01-27 17:45:35,636] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000025DF701EC60>页面中未能找到('id', 'form_item_username')元素

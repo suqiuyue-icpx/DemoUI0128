@@ -1,0 +1,50 @@
+testinfo:
+    - id: test_login001
+      title: 登录测试
+      info: 打开系统首页
+
+testcase:
+    - element_info: form_item_username
+      find_type: ID
+      operate_type: send_keys
+      info: 输入用户信息
+      index: 0
+
+    - element_info: form_item_password
+      find_type: ID
+      operate_type: send_keys
+      info: 输入密码
+      index: 1
+
+    - element_info: "//button[@type='submit' and contains(@class, 'login-button')]"
+      find_type: XPATH
+      operate_type: click
+      info: 点击登录按钮
+      index: 2
+
+    - element_info: "//div[@class='ant-pro-header-account-name']//div[@class='username']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停账户菜单
+      index: 3
+
+    - element_info: "//div[@class='ant-pro-account-menu-item' and text()='退出登录']"
+      find_type: XPATH
+      operate_type: click
+      info: 鼠标悬停退出登录
+      index: 4
+
+    - element_info: "//button[.//span[text()='确 定']]"
+      find_type: XPATH
+      operate_type: click
+      info: 选择确认退出
+      index: 5
+
+check:
+    - element_info: "//div[@class='ant-pro-header-account-name']//div[@class='username']"
+      find_type: XPATH
+      info: 检查登录是否成功
+
+    - element_info: "//button[@type='submit' and contains(@class, 'login-button')]"
+      find_type: XPATH
+      info: 检查退出登录是否成功

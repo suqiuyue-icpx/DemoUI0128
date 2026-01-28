@@ -1,0 +1,2 @@
+[2026-01-23 18:03:49,088] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000002D4261320F0>页面中未能找到('xpath', "//div[@class='ant-pro-account-menu-item' and text()='退出登录']")元素
+[2026-01-23 18:04:00,098] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginPage.login object at 0x000002D4289014F0>页面中未能找到('id', 'form_item_username')元素

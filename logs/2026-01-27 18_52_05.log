@@ -1,0 +1,4 @@
+[2026-01-27 18:52:32,627] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000274B013E660>页面中未能找到('css selector', '.h-b-custom-select-button')元素
+[2026-01-27 18:52:43,270] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000274B0729070>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:52:53,820] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000274B072BCB0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 18:52:54,394] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000274B072AE70>页面中未能找到('xpath', "//div[@class='ant-pro-header-account-name']//div[@class='username']")元素

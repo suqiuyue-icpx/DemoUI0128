@@ -1,0 +1,1 @@
+[2026-01-27 16:12:26,622] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000247BF235C70>页面中未能找到('id', 'rc_select_18')元素

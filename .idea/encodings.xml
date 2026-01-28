@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/testdata/OrganizationalManagement/userinfo/userinfo_data.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/OrganizationalManagement/userinfo/userinfo_data.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/login_data.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/login_data.csv.bak" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/login_data66.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/user/userinfo1_data.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/userinfo/userinfo2_data.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testyaml/OrganizationalManagement/userinfo/userinfo.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testyaml/login.csv" charset="GBK" />
+  </component>
+</project>

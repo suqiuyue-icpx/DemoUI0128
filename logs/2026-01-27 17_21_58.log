@@ -1,0 +1,2 @@
+[2026-01-27 17:22:31,373] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000229D42339E0>页面中未能找到('xpath', "//button[@type='button' and contains(@class, 'ant-btn .h-b-custom-select-button .ant-btn-icon-only')]")元素
+[2026-01-27 17:22:41,796] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x00000229D660E6C0>页面中未能找到('id', 'form_item_username')元素

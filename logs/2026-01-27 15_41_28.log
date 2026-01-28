@@ -1,0 +1,1 @@
+[2026-01-27 15:42:22,465] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x0000023AE63A5F40>页面中未能找到('xpath', "//button[@type='button' and text()='新增']")元素

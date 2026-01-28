@@ -1,0 +1,5 @@
+[2026-01-27 16:58:10,981] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002903B8BB2F0>页面中未能找到('xpath', "//button[@type='button' and @compentfield='ORG_IDS']")元素
+[2026-01-27 16:58:21,793] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002903EBC0AD0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 16:58:32,636] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002903EBC3380>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 16:58:43,466] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002903EBC07A0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-27 16:59:00,916] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000002903EBC12B0>页面中未能找到('xpath', "//div[@class='ant-pro-account-menu-item' and text()='退出登录']")元素

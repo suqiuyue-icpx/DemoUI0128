@@ -1,0 +1,1 @@
+[2026-01-26 14:20:27,153] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.User.userinfoPage.userinfo object at 0x000002094F466510>页面中未能找到('class name', 'ant-menu-submenu.ant-menu-submenu-inline.second-third-nav-color.ant-menu-submenu-selected')元素

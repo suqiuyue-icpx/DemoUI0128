@@ -1,0 +1,4 @@
+[2026-01-28 09:50:40,599] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001EE10A73020>页面中未能找到('xpath', "//button[@type='button' and contains(@class, 'ant-btn-primary') and text()='保 存']")元素
+[2026-01-28 09:50:51,683] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001EE10DC36B0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-28 09:51:02,328] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001EE10DC3DD0>页面中未能找到('id', 'form_item_username')元素
+[2026-01-28 09:51:12,999] [log.py|__console] [line:46] ERROR   : <public.page_obj.OrganizationalManagement.userinfo.userinfoPage.userinfo object at 0x000001EE10DD7E60>页面中未能找到('id', 'form_item_username')元素
